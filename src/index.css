@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+.move {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s, transform 1s;
+  }
+  
+  .move.show {
+    opacity: 1;
+    transform: translateX(0);
+  }
