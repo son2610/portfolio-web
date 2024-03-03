@@ -48,11 +48,21 @@ export default {
                 rotate: {
                     "100%": { transform: "rotate(360deg)" },
                 },
+                lefttoright: {
+                    "0%": {
+                        left: "-25%",
+                    },
+                    "100%": {
+                        left: "100%",
+                    },
+                },
             },
             animation: {
                 fancy: "morph 8s ease-in-out infinite",
                 "waving-hand": "wave 2s linear infinite",
                 "rotate-Text": "rotate 9s linear infinite",
+                myfirst: "lefttoright 22s linear infinite",
+                myfirst2: "lefttoright 30s linear infinite",
             },
         },
     },

@@ -8,11 +8,12 @@ import {
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTypescript, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
         <section
-            className="w-full pt-20 flex items-center justify-center h-full bg-[#f9f9f9] overflow-x-hidden px-4 max-md:pt-8"
+            className="w-full pt-20 flex items-center justify-center h-full bg-[#f9f9f9] overflow-x-hidden px-4 max-md:pt-8 pb-8"
             id="home"
         >
             <div className="max-w-[1396px] mx-auto ">
@@ -33,18 +34,36 @@ const Home = () => {
                             React Developer 💻 based in Ho Chi Minh, Viet Nam.
                         </p>
                         <span className="flex flex-row gap-8 max-md:justify-center">
-                            <FaFacebookSquare
-                                size={50}
-                                className="hover:text-blue-500 hover:cursor-pointer max-md:w-[40px] max-md:h-[40px] max-sm:w-[30px] max-sm:h-[30px]"
-                            />
-                            <FaGithub
-                                size={50}
-                                className="hover:text-blue-500 hover:cursor-pointer max-md:w-[40px] max-md:h-[40px] max-sm:w-[30px] max-sm:h-[30px]"
-                            />
-                            <FaSquareXTwitter
-                                size={50}
-                                className="hover:text-blue-500 hover:cursor-pointer max-md:w-[40px] max-md:h-[40px] max-sm:w-[30px] max-sm:h-[30px]"
-                            />
+                            <a
+                                href="https://www.facebook.com/MustSuccess.128"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <FaFacebookSquare
+                                    size={50}
+                                    className="hover:text-blue-500 hover:cursor-pointer max-md:w-[40px] max-md:h-[40px] max-sm:w-[30px] max-sm:h-[30px]"
+                                />
+                            </a>
+                            <a
+                                href="https://github.com/son2610"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <FaGithub
+                                    size={50}
+                                    className="hover:text-blue-500 hover:cursor-pointer max-md:w-[40px] max-md:h-[40px] max-sm:w-[30px] max-sm:h-[30px]"
+                                />
+                            </a>
+                            <a
+                                href="https://twitter.com/True_or_Else"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <FaSquareXTwitter
+                                    size={50}
+                                    className="hover:text-blue-500 hover:cursor-pointer max-md:w-[40px] max-md:h-[40px] max-sm:w-[30px] max-sm:h-[30px]"
+                                />
+                            </a>
                         </span>
                     </div>
 
